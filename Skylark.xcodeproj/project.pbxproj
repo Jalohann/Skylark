@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46BAB47E2C1A473A003F553B /* SkylarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAB47D2C1A473A003F553B /* SkylarkApp.swift */; };
+		46BAB4802C1A473A003F553B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAB47F2C1A473A003F553B /* ContentView.swift */; };
+		46BAB4822C1A473F003F553B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BAB4812C1A473F003F553B /* Assets.xcassets */; };
+		46BAB4852C1A473F003F553B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BAB4842C1A473F003F553B /* Preview Assets.xcassets */; };
+		46BAB4872C1A473F003F553B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAB4862C1A473F003F553B /* Persistence.swift */; };
+		46BAB48A2C1A4740003F553B /* Skylark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46BAB4882C1A4740003F553B /* Skylark.xcdatamodeld */; };
+		46BAB4942C1A4740003F553B /* SkylarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAB4932C1A4740003F553B /* SkylarkTests.swift */; };
+		46BAB49E2C1A4740003F553B /* SkylarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAB49D2C1A4740003F553B /* SkylarkUITests.swift */; };
+		46BAB4A02C1A4740003F553B /* SkylarkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAB49F2C1A4740003F553B /* SkylarkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46BAB4902C1A4740003F553B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46BAB4722C1A473A003F553B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BAB4792C1A473A003F553B;
+			remoteInfo = Skylark;
+		};
+		46BAB49A2C1A4740003F553B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46BAB4722C1A473A003F553B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BAB4792C1A473A003F553B;
+			remoteInfo = Skylark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46BAB47A2C1A473A003F553B /* Skylark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skylark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BAB47D2C1A473A003F553B /* SkylarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkylarkApp.swift; sourceTree = "<group>"; };
+		46BAB47F2C1A473A003F553B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46BAB4812C1A473F003F553B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46BAB4842C1A473F003F553B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46BAB4862C1A473F003F553B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		46BAB4892C1A4740003F553B /* Skylark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skylark.xcdatamodel; sourceTree = "<group>"; };
+		46BAB48F2C1A4740003F553B /* SkylarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkylarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BAB4932C1A4740003F553B /* SkylarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkylarkTests.swift; sourceTree = "<group>"; };
+		46BAB4992C1A4740003F553B /* SkylarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkylarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BAB49D2C1A4740003F553B /* SkylarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkylarkUITests.swift; sourceTree = "<group>"; };
+		46BAB49F2C1A4740003F553B /* SkylarkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkylarkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46BAB4772C1A473A003F553B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BAB48C2C1A4740003F553B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BAB4962C1A4740003F553B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BAB4712C1A473A003F553B = {
+			isa = PBXGroup;
+			children = (
+				46BAB47C2C1A473A003F553B /* Skylark */,
+				46BAB4922C1A4740003F553B /* SkylarkTests */,
+				46BAB49C2C1A4740003F553B /* SkylarkUITests */,
+				46BAB47B2C1A473A003F553B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46BAB47B2C1A473A003F553B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46BAB47A2C1A473A003F553B /* Skylark.app */,
+				46BAB48F2C1A4740003F553B /* SkylarkTests.xctest */,
+				46BAB4992C1A4740003F553B /* SkylarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46BAB47C2C1A473A003F553B /* Skylark */ = {
+			isa = PBXGroup;
+			children = (
+				46BAB47D2C1A473A003F553B /* SkylarkApp.swift */,
+				46BAB47F2C1A473A003F553B /* ContentView.swift */,
+				46BAB4812C1A473F003F553B /* Assets.xcassets */,
+				46BAB4862C1A473F003F553B /* Persistence.swift */,
+				46BAB4882C1A4740003F553B /* Skylark.xcdatamodeld */,
+				46BAB4832C1A473F003F553B /* Preview Content */,
+			);
+			path = Skylark;
+			sourceTree = "<group>";
+		};
+		46BAB4832C1A473F003F553B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46BAB4842C1A473F003F553B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46BAB4922C1A4740003F553B /* SkylarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				46BAB4932C1A4740003F553B /* SkylarkTests.swift */,
+			);
+			path = SkylarkTests;
+			sourceTree = "<group>";
+		};
+		46BAB49C2C1A4740003F553B /* SkylarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46BAB49D2C1A4740003F553B /* SkylarkUITests.swift */,
+				46BAB49F2C1A4740003F553B /* SkylarkUITestsLaunchTests.swift */,
+			);
+			path = SkylarkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46BAB4792C1A473A003F553B /* Skylark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BAB4A32C1A4740003F553B /* Build configuration list for PBXNativeTarget "Skylark" */;
+			buildPhases = (
+				46BAB4762C1A473A003F553B /* Sources */,
+				46BAB4772C1A473A003F553B /* Frameworks */,
+				46BAB4782C1A473A003F553B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skylark;
+			productName = Skylark;
+			productReference = 46BAB47A2C1A473A003F553B /* Skylark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46BAB48E2C1A4740003F553B /* SkylarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BAB4A62C1A4740003F553B /* Build configuration list for PBXNativeTarget "SkylarkTests" */;
+			buildPhases = (
+				46BAB48B2C1A4740003F553B /* Sources */,
+				46BAB48C2C1A4740003F553B /* Frameworks */,
+				46BAB48D2C1A4740003F553B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46BAB4912C1A4740003F553B /* PBXTargetDependency */,
+			);
+			name = SkylarkTests;
+			productName = SkylarkTests;
+			productReference = 46BAB48F2C1A4740003F553B /* SkylarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46BAB4982C1A4740003F553B /* SkylarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BAB4A92C1A4740003F553B /* Build configuration list for PBXNativeTarget "SkylarkUITests" */;
+			buildPhases = (
+				46BAB4952C1A4740003F553B /* Sources */,
+				46BAB4962C1A4740003F553B /* Frameworks */,
+				46BAB4972C1A4740003F553B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46BAB49B2C1A4740003F553B /* PBXTargetDependency */,
+			);
+			name = SkylarkUITests;
+			productName = SkylarkUITests;
+			productReference = 46BAB4992C1A4740003F553B /* SkylarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46BAB4722C1A473A003F553B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					46BAB4792C1A473A003F553B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					46BAB48E2C1A4740003F553B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 46BAB4792C1A473A003F553B;
+					};
+					46BAB4982C1A4740003F553B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 46BAB4792C1A473A003F553B;
+					};
+				};
+			};
+			buildConfigurationList = 46BAB4752C1A473A003F553B /* Build configuration list for PBXProject "Skylark" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46BAB4712C1A473A003F553B;
+			productRefGroup = 46BAB47B2C1A473A003F553B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BAB4792C1A473A003F553B /* Skylark */,
+				46BAB48E2C1A4740003F553B /* SkylarkTests */,
+				46BAB4982C1A4740003F553B /* SkylarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46BAB4782C1A473A003F553B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BAB4852C1A473F003F553B /* Preview Assets.xcassets in Resources */,
+				46BAB4822C1A473F003F553B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BAB48D2C1A4740003F553B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BAB4972C1A4740003F553B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46BAB4762C1A473A003F553B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BAB4872C1A473F003F553B /* Persistence.swift in Sources */,
+				46BAB48A2C1A4740003F553B /* Skylark.xcdatamodeld in Sources */,
+				46BAB4802C1A473A003F553B /* ContentView.swift in Sources */,
+				46BAB47E2C1A473A003F553B /* SkylarkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BAB48B2C1A4740003F553B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BAB4942C1A4740003F553B /* SkylarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BAB4952C1A4740003F553B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BAB4A02C1A4740003F553B /* SkylarkUITestsLaunchTests.swift in Sources */,
+				46BAB49E2C1A4740003F553B /* SkylarkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46BAB4912C1A4740003F553B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46BAB4792C1A473A003F553B /* Skylark */;
+			targetProxy = 46BAB4902C1A4740003F553B /* PBXContainerItemProxy */;
+		};
+		46BAB49B2C1A4740003F553B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46BAB4792C1A473A003F553B /* Skylark */;
+			targetProxy = 46BAB49A2C1A4740003F553B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46BAB4A12C1A4740003F553B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46BAB4A22C1A4740003F553B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46BAB4A42C1A4740003F553B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Skylark/Preview Content\"";
+				DEVELOPMENT_TEAM = BQCTQHCQ5M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalohann.Skylark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46BAB4A52C1A4740003F553B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Skylark/Preview Content\"";
+				DEVELOPMENT_TEAM = BQCTQHCQ5M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalohann.Skylark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46BAB4A72C1A4740003F553B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQCTQHCQ5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalohann.SkylarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skylark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Skylark";
+			};
+			name = Debug;
+		};
+		46BAB4A82C1A4740003F553B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQCTQHCQ5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalohann.SkylarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skylark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Skylark";
+			};
+			name = Release;
+		};
+		46BAB4AA2C1A4740003F553B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQCTQHCQ5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalohann.SkylarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skylark;
+			};
+			name = Debug;
+		};
+		46BAB4AB2C1A4740003F553B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQCTQHCQ5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalohann.SkylarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skylark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46BAB4752C1A473A003F553B /* Build configuration list for PBXProject "Skylark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BAB4A12C1A4740003F553B /* Debug */,
+				46BAB4A22C1A4740003F553B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BAB4A32C1A4740003F553B /* Build configuration list for PBXNativeTarget "Skylark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BAB4A42C1A4740003F553B /* Debug */,
+				46BAB4A52C1A4740003F553B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BAB4A62C1A4740003F553B /* Build configuration list for PBXNativeTarget "SkylarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BAB4A72C1A4740003F553B /* Debug */,
+				46BAB4A82C1A4740003F553B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BAB4A92C1A4740003F553B /* Build configuration list for PBXNativeTarget "SkylarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BAB4AA2C1A4740003F553B /* Debug */,
+				46BAB4AB2C1A4740003F553B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46BAB4882C1A4740003F553B /* Skylark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46BAB4892C1A4740003F553B /* Skylark.xcdatamodel */,
+			);
+			currentVersion = 46BAB4892C1A4740003F553B /* Skylark.xcdatamodel */;
+			path = Skylark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46BAB4722C1A473A003F553B /* Project object */;
+}
